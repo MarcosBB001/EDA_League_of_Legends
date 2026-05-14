@@ -65,3 +65,14 @@ A lo largo del análisis se explorarán distintas hipótesis sobre el comportami
 <p align="left">
   <img src="roles.png" alt="LoL roles" width="700"/>
 </p>
+
+## 📜 Scripts
+
+Los pasos completos del análisis se encuentran documentados en los Jupyter Notebooks dentro de la carpeta `notebooks/`.
+
+Para generar nuevamente todos los gráficos y visualizaciones del proyecto, ejecuta el script:
+
+```bash
+python generate_images.py
+```
+Este script crea automáticamente los plots utilizados en el análisis y los guarda en la carpeta `plots/`.
